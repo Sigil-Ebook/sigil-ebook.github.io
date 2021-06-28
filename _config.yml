@@ -1,0 +1,185 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Sigil-Ebook"
+masthead_title: "Home"
+#logo: "/assets/images/bio-photo.png"
+title_separator: "-"
+name: "Sigil"
+email:
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Sigil is a multi-platform EPUB ebook Editor
+twitter_username: username
+github_username: username
+minimal_mistakes_skin: "default"
+search: true
+url: "https://sigil-ebook.github.io"
+#logo: "/assets/images/sigil_logo_blue.png"
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.23.0"
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "The Sigil Team"
+  avatar : "/assets/images/sigil-512.png"
+  #bio    : "My awesome biography constrained to a sentence or two goes here."
+  links:
+  #  - label: "Website"
+  #    icon: "fas fa-fw fa-link"
+  #    url: "https://"
+  #  - label: "Twitter"
+  #    icon: "fab fa-fw fa-twitter-square"
+  #    url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Sigil-Ebook/Sigil.git"
+  #  - label: "Instagram"
+  #    icon: "fab fa-fw fa-instagram"
+  #    url: "https://instagram.com/"
+
+footer:
+  links:
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Sigil-Ebook/Sigil"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+    #  url: "https://instagram.com/"
+
+# Collections
+collections:
+  blog:
+    output: true
+    permalink: /:collection/:path/
+  sigil:
+    sort_by: order
+    output: true
+    permalink: /:collection/:path/
+  pageedit:
+    sort_by: order
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: true
+      show_date: true
+      header:
+        show_overlay_excerpt: false
+        tagline: ""
+        overlay_image: /assets/images/banner.jpg
+        overlay_filter: 0.7
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+      sidebar:
+        nav: "blog"
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      header:
+        show_overlay_excerpt: false
+        tagline: ""
+        overlay_image: /assets/images/banner.jpg
+        overlay_filter: 0.7 # same as adding an opacity of 0.5 to a black background
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  # blog
+  - scope:
+      path: "blog"
+      type: blog
+    values:
+      layout: single
+      author_profile: false
+  # _sigil
+  - scope:
+      path: ""
+      type: sigil
+    values:
+      layout: alt_single
+      author_profile: false
+      header:
+        show_overlay_excerpt: false
+        tagline: ""
+        overlay_image: /assets/images/banner.jpg
+        overlay_filter: 0.7 # same as adding an opacity of 0.5 to a black background
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+      sidebar:
+        nav: "sigil"
+  # _pageedit
+  - scope:
+      path: ""
+      type: pageedit
+    values:
+      layout: alt_single
+      author_profile: false
+      header:
+        show_overlay_excerpt: false
+        tagline: ""
+        overlay_image: /assets/images/banner.jpg
+        overlay_filter: 0.7 # same as adding an opacity of 0.5 to a black background
+        caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+      sidebar:
+        nav: "pageedit"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/

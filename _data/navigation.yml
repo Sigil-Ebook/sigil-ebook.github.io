@@ -1,0 +1,50 @@
+main:
+  - title: "Sigil"
+    url: /sigil/
+  - title: "PageEdit"
+    url: /pageedit/
+  - title: "Blog"
+    url: /blog/
+
+sigil:
+  - title: "Sigil"
+    children:
+      - title: "Download"
+        url: /sigil/download/
+      - title: "Documentation"
+        url: /sigil/guide/  
+      - title: "Plugins"
+        url: /sigil/plugins/
+      - title: "Icon Themes"
+        url: /sigil/themes/
+      - title: "Support"
+        url: /sigil/support/
+      - title: "History"
+        url: /sigil/history/
+
+pageedit:
+  - title: "PageEdit"
+    children:
+      - title: "Download"
+        url: /pageedit/download/
+      - title: "Documentation"
+        url: /pageedit/guide/
+
+blog:
+  - title: "Blog Links"
+    children: 
+      - title: "All Posts"
+        url: /blog/
+      - title: "Posts by Tag"
+        url: /tags/
+      - title: "Posts by Year"
+        url: /posts/
+
+  #- title: "Posts"
+  #  url: /posts/
+  #- title: "Categories"
+  #  url: /categories/
+  #- title: "Tags"
+  #  url: /tags/
+  #- title: "About"
+  #  url: /about/
