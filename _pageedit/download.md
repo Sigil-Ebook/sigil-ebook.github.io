@@ -1,11 +1,10 @@
 ---
 title: "Download PageEdit"
 permalink: /pageedit/download/
-installer_version: "1.6.0"
-guide_version: "2019.10.31"
 ---
 
-[Latest Windows x64 download](https://github.com/Sigil-Ebook/PageEdit/releases/download/{{ page.installer_version }}/PageEdit-{{ page.installer_version }}-Windows-x64-Setup.exe){: .btn .btn--success}<br/>[Latest MacOS download](https://github.com/Sigil-Ebook/PageEdit/releases/download/{{ page.installer_version }}/PageEdit.app-{{ page.installer_version }}-Mac.txz){: .btn .btn--success}
+{% include remote_versions.html %}
+[Latest Windows x64 download](https://github.com/Sigil-Ebook/PageEdit/releases/download/{{ pageedit_ver }}/PageEdit-{{ pageedit_ver }}-Windows-x64-Setup.exe){: .btn .btn--success}<br/>[Latest MacOS download](https://github.com/Sigil-Ebook/PageEdit/releases/download/{{ pageedit_ver }}/PageEdit.app-{{ pageedit_ver }}-Mac.txz){: .btn .btn--success}<br/>[Latest CHECKSUMS file](https://github.com/Sigil-Ebook/PageEdit/releases/download/{{ pageedit_ver }}/PageEdit-{{ pageedit_ver }}-CHECKSUMS.sha256.txt){: .btn .btn--success}
 
 Past and present installers are always available under [releases](https://github.com/Sigil-Ebook/PageEdit/releases) at the main code hosting location. The latest release will be on top. You can see what's changed between releases by looking at the [ChangeLog](https://github.com/Sigil-Ebook/PageEdit/blob/master/ChangeLog.txt).
 

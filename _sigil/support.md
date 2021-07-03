@@ -9,3 +9,6 @@ Also, there is a [User Guide and Plugin Developer Guide](https://github.com/Sigi
 
 Support emails sent directly to Sigil developers will 99.9% of the time go unanswered and will simply be deleted. This is not a business and one on one support is not something that developers can offer or even sustain due to volume. Developers are volunteers and have lives outside of Sigil. This is not a paid product with 8-5 support hours but a community project. Developers often do not have time to reply to support email due to other obligations or because they would rather spend the few hours a week they have (if they even have any time at all) working on Sigil rather than spending that time replying to email. Please use the [support forum](https://www.mobileread.com/forums/forumdisplay.php?f=203) if you are in need of assistance.
 {: .notice--info}
+
+{% include remote_versions.html %}
+[Latest Sigil User Guide](https://github.com/Sigil-Ebook/sigil-user-guide/releases/download/{{ sigil_guide_ver }}/Sigil_User_Guide_{{ sigil_guide_ver }}.epub){: .btn .btn--success}

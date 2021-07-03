@@ -1,11 +1,10 @@
 ---
 title: "Download Sigil"
 permalink: /sigil/download/
-installer_version: "1.6.0"
-guide_version: "2021.05.27"
 ---
 
-[Latest Windows x64 download](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ page.installer_version }}/Sigil-{{ page.installer_version }}-Windows-x64-Setup.exe){: .btn .btn--success}<br/>[Latest MacOS download](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ page.installer_version }}/Sigil.app-{{ page.installer_version }}-Mac.txz){: .btn .btn--success}
+{% include remote_versions.html %}
+[Latest Windows x64 download](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil-{{ sigil_ver }}-Windows-x64-Setup.exe){: .btn .btn--success}<br/>[Latest MacOS download](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil.app-{{ sigil_ver }}-Mac.txz){: .btn .btn--success}<br/>[Latest CHECKSUMS file](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil-{{ sigil_ver }}-CHECKSUMS.sha256.txt){: .btn .btn--success}
 
 Past and present installers are always available under [releases](https://github.com/Sigil-Ebook/Sigil/releases) at the main code hosting location. The latest release will be on top. You can see what's changed between releases by looking at the [ChangeLog](https://github.com/Sigil-Ebook/Sigil/blob/master/ChangeLog.txt).
 
