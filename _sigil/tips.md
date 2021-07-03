@@ -106,32 +106,29 @@ over 80 megs on downloads per release.
 
 ### How to uncompress .tar.xz, or .txz files
 
-   There are many ways to uncompress and unpack .txz files.  The easiest is to install 
-   a good gui decompressor program that actually knows how to handle .xz files 
-   (and almost all other types of archive files).  One the oldest and best out there is 
-   called "The Unarchiver", which is free from the macOS App store:
+There are many ways to uncompress and unpack .txz files.  The easiest is to install 
+a good gui decompressor program that actually knows how to handle .xz files 
+(and almost all other types of archive files).  One the oldest and best out there is 
+called "The Unarchiver", which is free from the macOS App store:
 
-   [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353?mt=12){: .btn .btn--success}
+[The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353?mt=12){: .btn .btn--success}
 
-   Alternatively, modern macOS versions can do the decompression with nothing
-   additional needed via the Terminal.app and the command line as follows:
+Alternatively, modern macOS versions can do the decompression with nothing
+additional needed via the Terminal.app and the command line as follows:
    
-   1. move the file Sigil.app-0.9.18-Mac.txz file your Desktop
-   2. open Terminal.app, and type the following commmands:
+    1. move the file Sigil.app-0.9.18-Mac.txz file your Desktop
+    2. open Terminal.app, and type the following commmands:
 
-        ~~~
-   	    cd ~/Desktop
+~~~
+        cd ~/Desktop
+        tar -xvf ./Sigil.app-0.9.18-Mac.txz
+        exit
+~~~
 
-   	    tar -xvf ./Sigil.app-0.9.18-Mac.txz
-
-   	    exit
-        ~~~
-
-
-    A list of all of the pieces that make up Sigil should appear as they are
-    unpacked.  Once this completes and you close Terminal.app, you should see 
-    the new "Sigil.app" on your Desktop ready to be dragged to your /Applications
-    folder (or wherever you want).
+A list of all of the pieces that make up Sigil should appear as they are
+unpacked.  Once this completes and you close Terminal.app, you should see 
+the new "Sigil.app" on your Desktop ready to be dragged to your /Applications
+folder (or wherever you want).
 
 
 ## Windows Tips
