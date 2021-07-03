@@ -15,12 +15,16 @@ sigil:
         url: /sigil/guide/  
       - title: "Plugins"
         url: /sigil/plugins/
-      - title: Tips and Troubleshooting
-        url: /sigil/tips/
       - title: "Icon Themes"
         url: /sigil/themes/
+      - title: Tips and Troubleshooting
+        url: /sigil/tips/
       - title: "Support"
         url: /sigil/support/
+      - title: "Source Code"
+        url: /sigil/source/
+      - title: "Reporting Issues"
+        url: /sigil/issues/
       - title: "History"
         url: /sigil/history/
 
@@ -31,6 +35,10 @@ pageedit:
         url: /pageedit/download/
       - title: "Documentation"
         url: /pageedit/guide/
+      - title: "Source Code"
+        url: /pageedit/source/
+      - title: "Reporting Issues"
+        url: /pageedit/issues/
 
 blog:
   - title: "Blog Links"
