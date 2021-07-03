@@ -116,13 +116,13 @@ called "The Unarchiver", which is free from the macOS App store:
 Alternatively, modern macOS versions can do the decompression with nothing
 additional needed via the Terminal.app and the command line as follows:
    
-    1. move the file Sigil.app-0.9.18-Mac.txz file your Desktop
-    2. open Terminal.app, and type the following commmands:
+1. move the file Sigil.app-0.9.18-Mac.txz file your Desktop
+2. open Terminal.app, and type the following commmands:
 
 ~~~
-        cd ~/Desktop
-        tar -xvf ./Sigil.app-0.9.18-Mac.txz
-        exit
+cd ~/Desktop
+tar -xvf ./Sigil.app-0.9.18-Mac.txz
+exit
 ~~~
 
 A list of all of the pieces that make up Sigil should appear as they are
