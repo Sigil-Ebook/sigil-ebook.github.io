@@ -15,7 +15,7 @@ __Some Sigil features:__
 - Free and open source software under GPLv3
 - Multi-platform: runs on Windows, Mac, and Linux
 - Full UTF-16 support
-- EPUB 2 and EPUB2 spec support
+- EPUB 2 and EPU 3 spec support
 - Multiple Views: Code View and Preview View
 - Complete control over directly editing EPUB syntax in Code View
 - Table of Contents generator with multi-level heading support
