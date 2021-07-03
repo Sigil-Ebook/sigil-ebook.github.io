@@ -54,7 +54,7 @@ epub version you plan to work with (epub 2 or epub3) so that new
 empty ebooks start with the correct code.
 - if you plan to work with epub3 epubs, you should change your
 PreserveEntities setting to use ONLY NUMERIC entities.
-For example use &\#160; for non-breaking spaces and etc.
+For example use &amp;\#160; for non-breaking spaces and etc.
 - We strongly recommend enabling Mend On Open in your settings
 for best performance with Sigil.
 
