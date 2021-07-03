@@ -4,6 +4,7 @@ permalink: /sigil/themes/
 legacy_version: "2021-02-11-01"
 ---
 
+{% include remote_versions.html %}
 Users of Sigil can choose to use one of the three primary icon themes provided with Sigil:
 
 __Main__ - Default set available in Sigil 1.0 and later:
@@ -30,7 +31,7 @@ __Legacy__ - pure svg versions of Sigil's icons pre Sigil 0.9.7.
 
 ![Legacy Icon Theme](https://raw.githubusercontent.com/Sigil-Ebook/IconThemes/master/images/legacy.png)
 
-[Download Legacy Icon Theme](https://github.com/Sigil-Ebook/IconThemes/releases/download/{{ page.legacy_version }}/legacy.rcc){: .btn .btn--success}
+[Download Legacy Icon Theme](https://github.com/Sigil-Ebook/IconThemes/releases/download/{{ iconthemes_ver }}/legacy.rcc){: .btn .btn--success}
 
 __Material Derivatives__ - each in one of the following base colours: blue, gray, lilac, orange, pink, and red specifically chosen to be usable under both Light and Dark modes.
 
