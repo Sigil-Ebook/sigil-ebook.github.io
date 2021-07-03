@@ -36,19 +36,16 @@ For Linux packagers, the current "master" branch of Sigil will be moved to a "we
 
 For those who don't know where their preference files are; you can always get to them by clicking the "Open Preferences Location" button at the bottom of Sigil's Preferences dialog (Edit->Preferences). If you can't launch Sigil, however you can find them at:
 
-[Windows Directions](#locating-your-sigil-preferences-folder-on-windows)
-
+[Windows Directions](#locating-your-sigil-preferences-folder-on-windows)<br/>
 [Linux Directions](#opening-sigils-preference-folder-on-linux)
 
 The four INI files are what needs to be restored from Sigil-0.9.10 (or earlier) backups, or deleted if you don't have backups. Any temporary lock files corresponding to those INI files should deleted regardless. You can also safely restore your plugins, plugin_prefs (and any dictionary) folders if you don't want to reinstall/reconfigure them all. It's only the INI files that are at issue here.
-
-***
 
 ### Versions 0.9.11 and 0.9.12 of Sigil are very buggy.
 
 Please don't use them. If you have good backups of your Sigil 0.9.10 (or earlier) preferences, roll back to Sigil 0.9.10 and restore your backed up preferences. If you don't have backups of your Sigil 0.9.10 (or earlier) preferences, roll back to Sigil 0.9.10 anyway and recreate your preferences as best you can from within Sigil's UI. Those preferences will be usable with Sigil v0.9.13 (and higher) when it is released.
 
-## General Platform-agnostic Tips
+### Other Platform-agnostic Tips
 
 When you fire up Sigil for the very first time:
 
@@ -62,7 +59,7 @@ For example use \&\#160\; for non-breaking spaces and etc.
 for best performance with Sigil.
 
 
-### Mac OS X Tips and Troubleshooting
+## Mac OS X Tips and Troubleshooting
 
 The latest version of Sigil requires macOS 10.12 or higher. macOS upgrades are available for free directly from Apple.
 
@@ -114,8 +111,7 @@ over 80 megs on downloads per release.
    (and almost all other types of archive files).  One the oldest and best out there is 
    called "The Unarchiver", which is free from the macOS App store:
 
-   The Unarchiver<br/>
-   <https://apps.apple.com/us/app/the-unarchiver/id425424353?mt=12>
+   [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353?mt=12){: .btn .btn--success}
 
    Alternatively, modern macOS versions can do the decompression with nothing
    additional needed via the Terminal.app and the command line as follows:
@@ -123,11 +119,13 @@ over 80 megs on downloads per release.
    1. move the file Sigil.app-0.9.18-Mac.txz file your Desktop
    2. open Terminal.app, and type the following commmands:
 
+        ~~~
    	    cd ~/Desktop
 
    	    tar -xvf ./Sigil.app-0.9.18-Mac.txz
 
    	    exit
+        ~~~
 
 
     A list of all of the pieces that make up Sigil should appear as they are
@@ -154,7 +152,7 @@ There are currently no official binary releases available for Linux on the Sigil
 ### lxml 4.4.0
 Avoid updating to lxml 4.4.0 until we work out some compatibility issues with our sigil_bs4 module. Downgrade to lxml 4.3.4 in the meantime.  **EDIT: this one has been fixed in the latest [github master branch](https://github.com/Sigil-Ebook/Sigil/commit/aa4f6549554fb99ad062ce501afe23c51530cbf5). That fix will be included in Sigil 0.9.17 (it can also be safely backported to earlier Sigil versions).**
 
-### IF YOU NOTICE HTML ENTITIES BEING DOUBLED IN YOUR EPUB'S HTML
+### If You Notice HTML Entities Being Doubled In Your EPUB's HTML
 
 There's a bug in libxml2-2.9.3 and 2.9.4(ish) that affects how QtWebKit renders html entities. Which means Sigil is affected on systems which use those versions. The problem was resolved in libxml2-2.9.5.
 
