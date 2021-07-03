@@ -32,7 +32,7 @@ For Linux packagers, the current "master" branch of Sigil will be moved to a "we
 
 ### If you're here because...
 
-**Sigil v0.9.13 (or higher) is crashing, won't run correctly, or won't start _at all_, please see the below message. In short, your preference INI files from Sigil 0.9.11/12 are not compatible with Sigil 0.9.13+. If you have backups of your preferences from Sigil v0.9.10 or earlier, you can restore those. Otherwise ... you need to delete Sigil's preference INI files, let Sigil recreate default ones when it next starts, and then reconfigure your preferences from Sigil's normal interface. We apologize for any inconvenience.**
+Sigil v0.9.13 (or higher) is crashing, won't run correctly, or won't start _at all_, please see the below message. In short, your preference INI files from Sigil 0.9.11/12 are not compatible with Sigil 0.9.13+. If you have backups of your preferences from Sigil v0.9.10 or earlier, you can restore those. Otherwise ... you need to delete Sigil's preference INI files, let Sigil recreate default ones when it next starts, and then reconfigure your preferences from Sigil's normal interface. We apologize for any inconvenience.
 
 For those who don't know where their preference files are; you can always get to them by clicking the "Open Preferences Location" button at the bottom of Sigil's Preferences dialog (Edit->Preferences). If you can't launch Sigil, however you can find them at:
 
