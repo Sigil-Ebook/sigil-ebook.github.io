@@ -54,7 +54,7 @@ epub version you plan to work with (epub 2 or epub3) so that new
 empty ebooks start with the correct code.
 - if you plan to work with epub3 epubs, you should change your
 PreserveEntities setting to use ONLY NUMERIC entities.
-For example use \&\#160\; for non-breaking spaces and etc.
+For example use &\#160; for non-breaking spaces and etc.
 - We strongly recommend enabling Mend On Open in your settings
 for best performance with Sigil.
 
@@ -159,7 +159,7 @@ Type a visible html entity (like \&copy\;) into Sigil's Code View (epub2). If it
 
 I've released a makeself Linux-only "updater" that installs a patched version of libxml2 into an existing Sigil installation to work around the issue.
 
-** NOTE: ** At no time will your system version of libxml2 be altered/affected by this update.
+**NOTE:** At no time will your system version of libxml2 be altered/affected by this update.
 
 [Download the installer](https://github.com/Sigil-Ebook/sigil-libxml2-updater/releases) (make sure it's executable bit is set) and use:
 
