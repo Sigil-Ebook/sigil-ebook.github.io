@@ -4,6 +4,7 @@ permalink: /sigil/
 show_overlay_excerpt: false
 sidebar:
   nav: "sigil"
+classes: wide
 ---
 
 ![Sigil icon](/assets/images/sigil-256.png){: .align-left}
