@@ -1,6 +1,7 @@
 ---
 title: "Sigil User Guide"
 permalink: /sigil/guide/
+classes: wide
 ---
 
 {% include remote_versions.html %}
