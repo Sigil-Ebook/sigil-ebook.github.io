@@ -11,10 +11,10 @@ The Sigil User Guide has its own [GitHub repository](https://github.com/Sigil-Eb
 
 <hr/>
 
-![Main Sigil interface](https://raw.githubusercontent.com/Sigil-Ebook/sigil-user-guide/master/src/OEBPS/Images/ui_buttons-moved.png){: .align-left}
+![Main Sigil interface](https://raw.githubusercontent.com/Sigil-Ebook/sigil-user-guide/master/src/OEBPS/Images/ui_buttons-moved.png){: align-center}
 
 ![Table of contents generation](https://raw.githubusercontent.com/Sigil-Ebook/sigil-user-guide/master/src/OEBPS/Images/toc-generate-toc.png){: .align-center}
 
-![Sigil Preview window](https://raw.githubusercontent.com/Sigil-Ebook/sigil-user-guide/master/src/OEBPS/Images/preview-window.png){: .align-right}
+![Sigil Preview window](https://raw.githubusercontent.com/Sigil-Ebook/sigil-user-guide/master/src/OEBPS/Images/preview-window.png){: .align-center}
 
-![Page Edit Interface](https://raw.githubusercontent.com/Sigil-Ebook/sigil-user-guide/master/src/OEBPS/Images/pageedit.png){: .align-left}
+![Page Edit Interface](https://raw.githubusercontent.com/Sigil-Ebook/sigil-user-guide/master/src/OEBPS/Images/pageedit.png){: .align-center}
