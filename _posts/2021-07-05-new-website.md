@@ -16,7 +16,8 @@ header:
 ---
 
 Welcome to the new sigil-ebook.com website! Using GitHub Pages and Jekyll, we hope to provide a more useful Website for both Sigil and PageEdit. One that is able to offer direct (and prominent) download links to the latest installers (as well as the user guides for both.
+{: .text-justify}
 
-Github users are still welcome to use the Sigil-Ebook Github page, but the hope is that this website will prove more useful to those who aren't developers and tinkerers.
+Github users are still welcome (and encouraged!) to continue using the Sigil-Ebook GitHub page, but the hope is that this website will prove more useful to those who aren't necessarily developers and/or tinkerers.{: .text-justify}
 
 [![Jekyll](/assets/images/jekyll-900.png)](https://jekyllrb.com/)
