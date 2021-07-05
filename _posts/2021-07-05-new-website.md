@@ -1,0 +1,23 @@
+---
+title: "New Website!"
+date: 2021-07-05T15:18:37-04:00
+categories:
+  - Blog
+tags:
+  - Announcements
+header:
+  show_overlay_excerpt: false
+  tagline: ""
+  overlay_image: /assets/images/gh-pages-1280.jpg
+  overlay_filter: 0.3
+  actions:
+    - label: "More Info"
+      url: "https://pages.github.com/"
+---
+
+![Sigil icon](/assets/images/sigil-256.png){: .align-left}
+Welcome to the new sigil-ebook.com website! Using GitHub Pages and Jekyll, we hope to provide a more useful Website for both Sigil and PageEdit. One that is able to offer direct (and prominent) download links to the latest installers (as well as the user guides for both.
+
+Github users are still welcome to use the Sigil-Ebook Github page, but the hope is that this website will prove more useful to those who aren't developers and tinkerers.
+
+[![Jekyll](/assets/images/jekyll-900.png)](https://jekyllrb.com/)
