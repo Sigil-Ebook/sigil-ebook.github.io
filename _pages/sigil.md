@@ -31,4 +31,3 @@ __Some Sigil features:__
 - Plugin Support
 - Checkpoint support (compare "snapshots" of changes)
 - Pies and Puppies!
-{: .notice--info}
