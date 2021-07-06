@@ -35,6 +35,8 @@ pageedit:
         url: /pageedit/download/
       - title: "Documentation"
         url: /pageedit/guide/
+      - title: "Running PageEdit"
+        url: /pageedit/running-pageedit
       - title: "Source Code"
         url: /pageedit/source/
       - title: "Reporting Issues"

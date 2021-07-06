@@ -1,7 +1,6 @@
 ---
 title: "Icon Themes"
 permalink: /sigil/themes/
-legacy_version: "2021-02-11-01"
 ---
 
 {% include remote_versions.html %}
