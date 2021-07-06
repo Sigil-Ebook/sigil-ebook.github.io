@@ -25,7 +25,7 @@ You can configure Sigil to run PageEdit or use it as a stand-alone application.
 
 Double-click the .opf file in the Book Browser window _before_ running PageEdit, if you want to edit or preview _all_ XHTML files with PageEdit. Otherwise, you’ll only be able to access the current XHTML file.
 
-__NOTE:__ starting with Sigil v1.6.0, you no longer need to open the opf file before launching PageEdit in order to preview all XHTML files. Launching PageEdit with Sigil's external xhtml editor button will always open PageEdit with _all_ of the epub's resources available. If you wish to only open a single XHTML file with PageEdit in Sigil v1.7.0+, use Sigil's Open With feature.
+__NOTE:__ starting with Sigil v1.6.0, you no longer need to open the opf file before launching PageEdit in order to preview all XHTML files. Launching PageEdit with Sigil's external xhtml editor button will always open PageEdit with _all_ of the epub's resources available. If you wish to only open a single XHTML file with PageEdit in Sigil v1.6.0+, use Sigil's Open With feature.
 {: .notice--info}
 
 ### Running PageEdit as a stand-alone application
