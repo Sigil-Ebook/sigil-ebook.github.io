@@ -9,8 +9,10 @@ classes: wide
 
 ![Sigil icon](/assets/images/sigil-256.png){: .align-left}
 Sigil was designed to make it easy to create great ebooks using the EPUB format. If you are formatting books for your own use, or you are a professional editor publishing books on multiple platforms, then Sigil is for you. You can use Sigil to format and package your books into an EPUB that looks exactly the way you want it to using an advanced set of features that have made Sigil one of most popular EPUB editors available.
+{: .text-justify}
 
 This open-source and completely free software is written and supported entirely by volunteers. The current Sigil development team includes Doug Massay and Kevin Hendricks as co-lead developers and maintainers. Previous developers/authors include John Schember, Grant Drake and Dave Heiland. Sigil was originally created by Strahinja Markovic in 2009 and remains completely free to download and use. Support is also provided by other volunteers who contribute code, translations and helpful answers to user’s questions. See the Help=>About menu in Sigil for a complete list of contributors.
+{: .text-justify}
 
 __Some Sigil features:__
 
