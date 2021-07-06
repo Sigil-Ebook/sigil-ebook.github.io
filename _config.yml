@@ -121,8 +121,8 @@ defaults:
       header:
         show_overlay_excerpt: false
         tagline: ""
-        overlay_image: /assets/images/banner.jpg
-        overlay_filter: 0.7
+        overlay_image: /assets/images/coding-1920.jpg
+        overlay_filter: 0.5
         caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
       sidebar:
         nav: "blog"
