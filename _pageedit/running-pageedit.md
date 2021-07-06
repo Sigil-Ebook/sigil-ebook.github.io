@@ -34,7 +34,7 @@ Install PageEdit, and create a Desktop shortcut:
 
 #### Windows
 
-Open the Windows Explorer, locate `PageEdit.exe` in the `C:\Program Files\PageEdit` folder, right-click it, and select `Send to Desktop`. (You can also [add an app shortcut to the Start menu](https://www.windowscentral.com/add-app-shortcuts-start-menu-manually-windows-10))
+Open the Windows Explorer, locate `PageEdit.exe` in the `C:\Program Files\PageEdit` folder, right-click it, and select `Send to Desktop`.<br/>(You can also [add an app shortcut to the Start menu](https://www.windowscentral.com/add-app-shortcuts-start-menu-manually-windows-10){:target="_blank"})
 
 __NOTE:__ the above is unnecessary if--during the installation--you chose to create a desktop shortcut and add PageEdit to the start menu.
 {: .notice--info}
