@@ -13,5 +13,8 @@ classes: wide
 ---
 
 ![Sigil icon](/assets/images/pageedit-256.png){: .align-left}
-PageEdit is a companion app for Sigil. It is a WYSIWYG xHTML editor intended to replace the functionality provided by Sigil's obsolete Book View feature.
+PageEdit was originally designed as a replacement for the Book View feature found in older Sigil versions. However, it can also be used as a general purpose visual XHTML editor.
+{: .text-justify}
+
+This open-source and completely free software is written and supported entirely by volunteers. The PageEdit development team includes Doug Massay and Kevin Hendricks as co-lead developers and maintainers. Previous developers/authors include John Schember, Grant Drake and Dave Heiland. PageEdit is based on [Sigil](/sigil/), which was originally created by Strahinja Markovic in 2009 and remains completely free to download and use. Support is also provided by other volunteers who contribute code, translations and helpful answers to user’s questions.
 {: .text-justify}
