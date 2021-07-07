@@ -23,14 +23,14 @@ email:
 #  Sigil is a multi-platform EPUB ebook Editor
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "air"
 search: true
 url: "https://sigil-ebook.com"
 #logo: "/assets/images/sigil_logo_blue.png"
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes@4.23.0"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
