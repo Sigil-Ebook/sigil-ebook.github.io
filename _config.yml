@@ -171,7 +171,7 @@ defaults:
       header:
         show_overlay_excerpt: false
         tagline: ""
-        overlay_image: /assets/images/banner.jpg
+        overlay_image: /assets/images/book-page-1920.jpg
         overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
         caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
       sidebar:

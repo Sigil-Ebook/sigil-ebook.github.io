@@ -1,7 +1,12 @@
 ---
 title: "What is PageEdit?"
 permalink: /pageedit/
-show_overlay_excerpt: false
+header:
+  show_overlay_excerpt: false
+  tagline: ""
+  overlay_image: /assets/images/book-page-1920.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 sidebar:
   nav: "pageedit"
 classes: wide
