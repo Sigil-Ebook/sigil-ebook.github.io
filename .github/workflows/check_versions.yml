@@ -1,11 +1,11 @@
 name: update remote versions
 on: 
-  schedule:
-    - cron: "0 */2 * * *"
+  #schedule:
+  #  - cron: "0 */2 * * *"
   workflow_dispatch:
     branches: [ master ]
-  push:
-    branches: [ master ]
+  #push:
+  #  branches: [ master ]
 
 jobs:
   build:
