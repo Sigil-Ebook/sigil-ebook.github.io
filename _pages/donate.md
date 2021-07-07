@@ -1,13 +1,13 @@
 ---
-title: "Donate"
+title: "Donating to Sigil"
 sitemap: false
 permalink: /donate/
 author_profile: true
 tagline: ""
 header:
-  overlay_image: /assets/images/donate-1920.jpg
-  overlay_filter: 0.6 # same as adding an opacity of 0.5 to a black background
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_image: /assets/images/money-1920.jpg
+  overlay_filter: 0.3
+  caption: "Photo by [Jason Leung](https://unsplash.com/@ninjason?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [**Unsplash**](https://unsplash.com/s/photos/money?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
 ---
 
 Thank you for considering a donation to help with Sigil's development. We're glad you find Sigil useful enough to want to contribute.
