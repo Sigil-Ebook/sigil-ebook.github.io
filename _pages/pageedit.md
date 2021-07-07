@@ -12,7 +12,7 @@ sidebar:
 classes: wide
 ---
 
-![Sigil icon](/assets/images/pageedit-256.png){: .align-left}
+![PageEdit icon](/assets/images/pageedit-256.png){: .align-left}
 PageEdit was originally designed as a replacement for the Book View feature found in older Sigil versions. However, it can also be used as a general purpose visual XHTML editor.
 {: .text-justify}
 
