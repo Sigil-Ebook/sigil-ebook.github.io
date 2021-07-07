@@ -7,7 +7,7 @@ tagline: ""
 header:
   overlay_image: /assets/images/money-1920.jpg
   overlay_filter: 0.3
-  caption: "Photo by [Jason Leung](https://unsplash.com/@ninjason) on [**Unsplash**](https://unsplash.com)"
+  caption: "Photo by [Jason Leung](https://unsplash.com/@ninjason){:target="_blank"} on [**Unsplash**](https://unsplash.com){:target="_blank"}"
 ---
 
 Thank you for considering a donation to help with Sigil's development. We're glad you find Sigil useful enough to want to contribute.
