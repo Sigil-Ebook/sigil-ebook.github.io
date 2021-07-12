@@ -14,29 +14,31 @@ All releases also have a CHECKSUM.sha256.txt file which includes sha256 check su
 </div>
 {: .notice--info}
 
-### Sigil On Windows
+### Sigil on Windows
 <div markdown="1">
-Note that Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 7 or newer.
+Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 7 or newer.
 </div>
 {: .notice--info}
 
-### Sigil on Mac OS
+### Sigil on Mac
 <div markdown="1">
-Mac OS X binaries are typically one version behind the current release. This means that today 10.10 is the current release so it should run on the 10.9 (with the latest updates installed). However, this is subject to change and this information is not always current. Especially for OS X. This is an at best support for older versions of Windows and OS X.
+Sigil currently runs on macOS 10.12 Sierra and newer. 
 
-Finally, the OS X .app file (not the .txz) is signed before release. You can use the code sign command line tool (I don't know of another way) to verify the application. There will be a lot of output but you're looking for my signature saying I  (Kevin, the project maintainer built this binary). From a terminal run:
+Whether a macOS version can run Sigil depends primarily on whether it is supported by the Qt libraries used to build Sigil. Currently, Sigil is built using Qt 5.12.x, which requires macOS 10.12 (no relation between the 12's!). Therefore Sigil requires macOS 10.12 or newer.
+
+In addition, the macOS .app file (not the .txz) is signed before release. You can use the code sign command line tool to verify the application. Open a terminal and run:
 
 ~~~
 codesign -dvvv Sigil.app
 ~~~
 
-There will be a lot of output but you should look for the following: Authority=Developer ID Application: Kevin Hendricks (2SMCVQU3CJ)
+There will be a lot of output. Look for the following, which tells you that Kevin Hendricks, the project maintainer, built this binary: Authority=Developer ID Application: Kevin Hendricks (2SMCVQU3CJ)
 </div>
 {: .notice--info}
 
-### Sigil On Linux
+### Sigil on Linux
 <div markdown="1">
-Sigil **will** run on Linux. We try to maintain compatibility with Linux mainly because it's easy to with Sigil supporting both OS X and Windows and it uses a number of technologies that already support Linux. That said, there is currently no official Sigil binary package for Linux.
+Sigil **will** run on Linux. We try to maintain compatibility with Linux mainly because it's easy to with Sigil supporting both Mac and Windows and it uses a number of technologies that already support Linux. That said, there is currently no official Sigil binary package for Linux.
 
 If you're looking to use Sigil on Linux, you can always build it from source. The docs directory in  [Sigil's Github repository](https://github.com/Sigil-Ebook/Sigil/tree/master/docs) has instructions that can guide you in that endeavor. You can also look to see if Sigil is available in the official repositories for your flavor of Linux.
 </div>
