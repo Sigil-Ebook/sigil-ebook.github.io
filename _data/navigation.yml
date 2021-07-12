@@ -8,6 +8,7 @@ main:
 
 sigil:
   - title: "Sigil"
+    url: /sigil/
     children:
       - title: "Download"
         url: /sigil/download/
@@ -30,6 +31,7 @@ sigil:
 
 pageedit:
   - title: "PageEdit"
+    url: /pageedit/
     children:
       - title: "Download"
         url: /pageedit/download/
@@ -44,6 +46,7 @@ pageedit:
 
 blog:
   - title: "Blog Links"
+    url: /blog/
     children: 
       - title: "All Posts"
         url: /blog/
