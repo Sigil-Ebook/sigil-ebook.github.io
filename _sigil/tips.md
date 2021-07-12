@@ -59,7 +59,7 @@ For example use &amp;\#160; for non-breaking spaces and etc.
 for best performance with Sigil.
 
 
-## Mac OS X Tips and Troubleshooting
+## Mac Tips and Troubleshooting
 
 The latest version of Sigil requires macOS 10.12 or higher. macOS upgrades are available for free directly from Apple.
 
@@ -70,7 +70,7 @@ Per the recommendation of www.python.org (see <https://www.python.org/download/m
 
 We may *not* redistribute this Package with Sigil due to ActiveState's binary non-redistribution policy.
 
-So please, if you have not already done so download and install this version of ActiveState's Active Tcl Community Edition, until we get a chance to do our own build of Tcl from source for future releases. ActiveState is a primary contributor to www.python.org and a respected and trusted source for python and tcl/tk related binaries on both Windows and Mac OS X.
+So please, if you have not already done so download and install this version of ActiveState's Active Tcl Community Edition, until we get a chance to do our own build of Tcl from source for future releases. ActiveState is a primary contributor to www.python.org and a respected and trusted source for python and tcl/tk related binaries on both Windows and Mac.
 
 See: <http://www.activestate.com/activetcl/downloads>
 Version: 8.6.4.1 or later 8.6.X release
@@ -78,13 +78,9 @@ Version: 8.6.4.1 or later 8.6.X release
 
 ### New Release File Format starting with Sigil-0.9.18
 
-For macOS we have moved to a new release file format.  Instead of .dmg files, the
-releases will use "xz" compression of a standard BSD tar archive of the application
-to create .txz files (aka .tar.xz files).
+For macOS we have moved to a new release file format.  Instead of .dmg files, the releases will use "xz" compression of a standard BSD tar archive of the application to create .txz files (aka .tar.xz files).
 
-The reason for this change is because xz compression is just that much better than the 
-zlib -9 compression used in dmg.  This means much smaller and much faster downloads
-and more space for backups, and other things.
+The reason for this change is because xz compression is just that much better than the zlib -9 compression used in dmg.  This means much smaller and much faster downloads and more space for backups, and other things.
 
 For example, here are the file sizes of the current release files in both formats:
 
@@ -94,29 +90,26 @@ For example, here are the file sizes of the current release files in both format
 
 for a savings of over 30 meg, and
 
-    127709658  3 Sep 11:22 Sigil-0.9.18-Mac-Package.dmg
+     127709658  3 Sep 11:22 Sigil-0.9.18-Mac-Package.dmg
 
      78071020  3 Sep 11:22 Sigil.app-0.9.18-Mac.txz
 
 for a savings of about 50 meg.
 
-So combined for the two downloads (PageEdit and Sigil), people are saving 
-over 80 megs on downloads per release.
+So combined for the two downloads (PageEdit and Sigil), people are saving over 80 megs on downloads per release.
 
 
 ### How to uncompress .tar.xz, or .txz files
 
-There are many ways to uncompress and unpack .txz files.  The easiest is to install 
-a good gui decompressor program that actually knows how to handle .xz files 
-(and almost all other types of archive files).  One the oldest and best out there is 
-called "The Unarchiver", which is free from the macOS App store:
+If you are on macOS 10.15 Catalina or newer, simply double-click the .txz file and macOS's built-in Archive Utility will automatically uncompress the file and leave you with a new Sigil.app, which you can drag to your /Applications folder (or wherever you want). 
+
+If you are on an older macOS, the easiest path is to install a good gui decompressor program that actually knows how to handle .xz files (and almost all other types of archive files).  One the oldest and best out there is called "The Unarchiver", which is free from the macOS App store:
 
 [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353?mt=12){: .btn .btn--success}
 
-Alternatively, modern macOS versions can do the decompression with nothing
-additional needed via the Terminal.app and the command line as follows:
+Alternatively, modern macOS versions can do the decompression with nothing additional needed via the Terminal.app and the command line as follows:
    
-1. move the file Sigil.app-0.9.18-Mac.txz file your Desktop
+1. move the Sigil.app-0.9.18-Mac.txz file to your Desktop
 2. open Terminal.app, and type the following commmands:
 
 ~~~
@@ -125,10 +118,7 @@ tar -xvf ./Sigil.app-0.9.18-Mac.txz
 exit
 ~~~
 
-A list of all of the pieces that make up Sigil should appear as they are
-unpacked.  Once this completes and you close Terminal.app, you should see 
-the new "Sigil.app" on your Desktop ready to be dragged to your /Applications
-folder (or wherever you want).
+A list of all of the pieces that make up Sigil should appear as they are unpacked.  Once this completes and you close Terminal.app, you should see the new "Sigil.app" on your Desktop ready to be dragged to your /Applications folder (or wherever you want).
 
 
 ## Windows Tips
