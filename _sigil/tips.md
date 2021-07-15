@@ -110,7 +110,7 @@ If you are on an older macOS, the easiest path is to install a good gui decompre
 Alternatively, modern macOS versions can do the decompression with nothing additional needed via the Terminal.app and the command line as follows:
    
 1. move the Sigil.app-0.9.18-Mac.txz file to your Desktop
-2. open Terminal.app, and type the following commmands:
+2. open Terminal.app, and type the following commands:
 
 ~~~
 cd ~/Desktop
