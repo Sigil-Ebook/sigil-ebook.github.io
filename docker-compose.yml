@@ -1,0 +1,18 @@
+version: "3.0"
+services:
+  jekyll:
+    environment:
+      - JEKYLL_GITHUB_TOKEN
+    image: "jekyll/jekyll:${SIGIL_JEKYLL_VERSION}"
+    container_name: local-sigil-jekyll
+    volumes:
+      - ./:/srv/jekyll
+      - gemcache:/usr/local/bundle
+      - site:/srv/jekyll/_site
+    ports:
+      - 4000:4000
+    command: "${SIGIL_JEKYLL_COMMAND}"
+
+volumes:
+  gemcache:
+  site:
