@@ -64,16 +64,13 @@ for best performance with Sigil.
 The latest version of Sigil requires macOS 10.12 or higher. macOS upgrades are available for free directly from Apple.
 
 
-### Need to Install ActiveState's Active TCL
+### Need to Install Tcl 8.6.x
 
-Per the recommendation of www.python.org (see <https://www.python.org/download/mac/tcltk/>), due to bugs and the age of Apple's internal Tcl library, you should also download and install ActiveState's ActiveTcl Community Edition. To get the latest bug fixes, Sigil-0.x.x's embedded Python has been linked with the very latest version of Tcl 8.6.x.x
+If you want to make use of Sigil plugins that use Tkinter, Mac users without a TclTk 8.6.X framework should download and install TclTk_8.6.x. Kevin has prepared a package that you can download and use.
 
-We may *not* redistribute this Package with Sigil due to ActiveState's binary non-redistribution policy.
+So if you have not already done so, and are exeriencing errors that mention TCL when trying to run third-party Sigil plugins, please download and install this version of Tcl, until we get a chance to include our own build of Tcl from source in future Sigil releases. 
 
-So please, if you have not already done so download and install this version of ActiveState's Active Tcl Community Edition, until we get a chance to do our own build of Tcl from source for future releases. ActiveState is a primary contributor to www.python.org and a respected and trusted source for python and tcl/tk related binaries on both Windows and Mac.
-
-See: <http://www.activestate.com/activetcl/downloads>
-Version: 8.6.4.1 or later 8.6.X release
+https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/TclTk_8.6.12.dmg
 
 
 ### New Release File Format starting with Sigil-0.9.18
