@@ -70,7 +70,7 @@ If you want to make use of Sigil plugins that use Tkinter, Mac users without a T
 
 So if you have not already done so, and are exeriencing errors that mention TCL when trying to run third-party Sigil plugins, please download and install this version of Tcl, until we get a chance to include our own build of Tcl from source in future Sigil releases. 
 
-https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/TclTk_8.6.12.dmg
+[https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/TclTk_8.6.12.dmg](https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/TclTk_8.6.12.dmg)
 
 
 ### New Release File Format starting with Sigil-0.9.18
