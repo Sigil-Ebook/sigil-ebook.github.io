@@ -16,7 +16,7 @@ All releases also have a CHECKSUM.sha256.txt file which includes sha256 check su
 
 ### Sigil on Windows
 <div markdown="1">
-Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 7 or newer.
+Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 7 or newer. The latest Sigil versions are also typically available via the winget and Chocolatey package managers.
 </div>
 {: .notice--info}
 
