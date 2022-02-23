@@ -66,9 +66,14 @@ The latest version of Sigil requires macOS 10.12 or higher. macOS upgrades are a
 
 ### Need to Install Tcl 8.6.x
 
+<div markdown="1">
+__NOTE__: Starting with Sigil 1.9.0, it is no longer necessary to download and install a separate TclTk package. Everything Sigil needs to support Python plugins that utilize Tkinter is included with Sigil.  For versions of Sigil older than 1.9.0, the following still applies.
+</div>
+{: .notice--info}
+
 If you want to make use of Sigil plugins that use Tkinter, Mac users without a TclTk 8.6.X framework should download and install TclTk_8.6.x. Kevin has prepared a package that you can download and use.
 
-So if you have not already done so, and are exeriencing errors that mention TCL when trying to run third-party Sigil plugins, please download and install this version of Tcl, until we get a chance to include our own build of Tcl from source in future Sigil releases. 
+So if you have not already done so, and are exeriencing errors that mention TCL when trying to run third-party Sigil plugins, please download and install this version of Tcl, until we get a chance to include our own build of Tcl from source in future Sigil releases.
 
 [https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/TclTk_8.6.12.dmg](https://github.com/Sigil-Ebook/Sigil/releases/download/1.8.0/TclTk_8.6.12.dmg)
 
@@ -98,14 +103,14 @@ So combined for the two downloads (PageEdit and Sigil), people are saving over 8
 
 ### How to uncompress .tar.xz, or .txz files
 
-If you are on macOS 10.15 Catalina or newer, simply double-click the .txz file and macOS's built-in Archive Utility will automatically uncompress the file and leave you with a new Sigil.app, which you can drag to your /Applications folder (or wherever you want). 
+If you are on macOS 10.15 Catalina or newer, simply double-click the .txz file and macOS's built-in Archive Utility will automatically uncompress the file and leave you with a new Sigil.app, which you can drag to your /Applications folder (or wherever you want).
 
 If you are on an older macOS, the easiest path is to install a good gui decompressor program that actually knows how to handle .xz files (and almost all other types of archive files).  One the oldest and best out there is called "The Unarchiver", which is free from the macOS App store:
 
 [The Unarchiver](https://apps.apple.com/us/app/the-unarchiver/id425424353?mt=12){: .btn .btn--success}
 
 Alternatively, modern macOS versions can do the decompression with nothing additional needed via the Terminal.app and the command line as follows:
-   
+
 1. move the Sigil.app-0.9.18-Mac.txz file to your Desktop
 2. open Terminal.app, and type the following commands:
 
