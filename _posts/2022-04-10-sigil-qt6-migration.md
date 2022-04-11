@@ -22,7 +22,7 @@ For reasons that are not really up for debate, Sigil has chosen to move to PySid
 
 ![Plugin Changes](/assets/images/changes.jpg)
 
-In order to maintain compatibility with older versions of Sigil (Qt5/PyQt5) and newer versions of Sigil (Qt6/PySide6), I've come up with a compatibility module that can be included in your plugin to make things easier. If you don't update your plugin, you and users will still have the option of using an external Python with PyQt5 installed for your plugin. No one will be left completely in the cold. You can also use your own homegrown solution to remain compatible with Sigil-Qt5 and Sigil-Qt6. There are less differences than you would think between PyQt5 and PySide6. And where there are differences, I've coded some helper utilities in the plugin_utils module to facilitate things.
+In order to maintain compatibility with older versions of Sigil (Qt5/PyQt5) and newer versions of Sigil (Qt6/PySide6), I've come up with a compatibility module that can be included in your plugin to make things easier. If you don't update your plugin, you and your users will still have the option of using an external Python with PyQt5 installed for your plugin. No one will be left completely out in the cold. You can also use your own homegrown solution to remain compatible with Sigil-Qt5 and Sigil-Qt6. There are less differences than you would think between PyQt5 and PySide6. And where there are differences, I've coded some helper utilities in the plugin_utils module to facilitate things.
 
 The [plugin_utils](https://github.com/dougmassay/sigil-plugin-utils/blob/main/plugin_utils.py) module can be found in my [personal github repository for it](https://github.com/dougmassay/sigil-plugin-utils).
 
