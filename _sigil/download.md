@@ -16,7 +16,7 @@ All releases also have a CHECKSUM.sha256.txt file which includes sha256 check su
 
 ### Sigil on Windows
 <div markdown="1">
-Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 7 or newer. The latest Sigil versions are also typically available via the winget and Chocolatey package managers.
+Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 8 or newer. There's a Legacy installer that's suitable for Windows 7. The latest Sigil versions are also typically available via the winget (Windows 10+) and Chocolatey package managers. There are "scary" Microsoft warnings about unknown software if you install via winget or Chocolatey.
 </div>
 {: .notice--info}
 
@@ -43,3 +43,6 @@ Sigil **will** run on Linux. We try to maintain compatibility with Linux mainly 
 If you're looking to use Sigil on Linux, you can always build it from source. The docs directory in  [Sigil's Github repository](https://github.com/Sigil-Ebook/Sigil/tree/master/docs) has instructions that can guide you in that endeavor. You can also look to see if Sigil is available in the official repositories for your flavor of Linux.
 </div>
 {: .notice--info}
+
+### Package Versions of Sigil
+[![Packaging status](https://repology.org/badge/vertical-allrepos/sigil.svg)](https://repology.org/project/sigil/versions)
