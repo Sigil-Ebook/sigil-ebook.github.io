@@ -16,7 +16,7 @@ All releases also have a CHECKSUM.sha256.txt file which includes sha256 check su
 
 ### Sigil on Windows
 <div markdown="1">
-Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 8 or newer. There's a Legacy installer that's suitable for Windows 7. The latest Sigil versions are also typically available via the [winget (Windows 10+)](https://winget.run/pkg/Sigil-Ebook/Sigil) and [Chocolatey (Window 7+)](https://community.chocolatey.org/packages/Sigil) package managers. There are no "scary" Microsoft warnings about unknown publishers if you install via winget or Chocolatey.
+Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 8 or newer. There's a Legacy installer that's suitable for Windows 7. The latest Sigil versions are also typically available via the [winget (Windows 10+)](https://winget.run/pkg/Sigil-Ebook/Sigil) and [Chocolatey (Windows 7+)](https://community.chocolatey.org/packages/Sigil) package managers. There are no "scary" Microsoft warnings about unknown publishers if you install via winget or Chocolatey.
 </div>
 {: .notice--info}
 
