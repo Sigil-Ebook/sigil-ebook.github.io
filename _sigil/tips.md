@@ -125,9 +125,9 @@ A list of all of the pieces that make up Sigil should appear as they are unpacke
 
 ## Windows Tips
 
-The latest version of Sigil requires Windows 7 sp1 or higher.
+The latest version of Sigil requires Windows 8 or higher (a legacy installer is available for Windows 7sp1).
 
-If your current version of Sigil is 0.9.6 or earlier, it's recommended (but not required) that you uninstall that version before installing the newer version. Some compiled Python files have had their file extentions changed (as well as the change to Python 3.5, 3.7, and 3.8). As a result, there will be a lot of extraneous files left lying around if you just install the new over the old. It won't cause any functionality problems, but if disk space is at a premium, you may want to clean things up a bit. You can do this by uninstalling Sigil at any time (even after 0.9.10 is installed) and reinstalling. Doing so won't affect your any of your preferences, plugins, keyboard shortcuts, clips, saved searches, etc.
+If your current version of Sigil is 0.9.6 or earlier, it's recommended (but not required) that you uninstall that version before installing the newer version. Some compiled Python files have had their file extentions changed (as well as the change to Python 3.5, 3.7, 3.8 and 3.9). As a result, there will be a lot of extraneous files left lying around if you just install the new over the old. It won't cause any functionality problems, but if disk space is at a premium, you may want to clean things up a bit. You can do this by uninstalling Sigil at any time (even after 0.9.10 is installed) and reinstalling. Doing so won't affect your any of your preferences, plugins, keyboard shortcuts, clips, saved searches, etc.
 
 
 ### Locating your Sigil Preferences Folder on Windows
