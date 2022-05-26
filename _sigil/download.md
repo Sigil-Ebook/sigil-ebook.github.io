@@ -18,7 +18,7 @@ All releases also have a CHECKSUM.sha256.txt file which includes sha256 check su
 <div markdown="1">
 Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 8 or newer. There's a Legacy installer that's suitable for Windows 7.
 
-The latest Sigil versions are also typically available via the [winget (Windows 10+)](https://winget.run/pkg/Sigil-Ebook/Sigil), [Chocolatey (Windows 7+)](https://community.chocolatey.org/packages/Sigil), and [Npackd](https://npackd.appspot.com/p?q=sigil) Windows package managers. There are no "scary" Microsoft warnings about unknown publishers if you install Sigil via one of these package managers.
+The latest Sigil versions are also typically available via the [winget (Windows 10+)](https://winget.run/pkg/Sigil-Ebook/Sigil), [Chocolatey (Windows 7+)](https://community.chocolatey.org/packages/Sigil), and [Npackd](https://npackd.appspot.com/p?q=sigil) Windows package managers within a week of our releases (often sooner). There are no "scary" Microsoft warnings about unknown publishers if you install Sigil via one of these package managers. Those Windows package managers download their unpatched Sigil installers directly from our release posts. So while I'm not officially endorsing the use of these package managers, I feel there's value (and no risk) in utilizing them to manage your Sigil installation/updates.
 </div>
 {: .notice--info}
 
