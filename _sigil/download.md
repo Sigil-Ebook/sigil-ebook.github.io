@@ -16,17 +16,17 @@ All releases also have a CHECKSUM.sha256.txt file which includes sha256 check su
 
 ### Sigil on Windows
 <div markdown="1">
-Sigil currently provides Windows installers for x86 and x64 and will only work on Windows 8 or newer. There's a Legacy installer that's suitable for Windows 7.
+Sigil currently provides a Windows installer for x64 and will only work on Windows 10 (1809) or newer.
 
-The latest Sigil versions are also typically available via the [winget (Windows 10+)](https://winstall.app/apps/Sigil-Ebook.Sigil), [Chocolatey (Windows 7+)](https://community.chocolatey.org/packages/Sigil), and [Npackd](https://npackd.appspot.com/p?q=sigil) Windows package managers within a week of our releases (often sooner). There are no "scary" Microsoft warnings about unknown publishers if you install Sigil via one of these package managers. Those Windows package managers download their unpatched Sigil installers directly from our release posts. So while I'm not officially endorsing the use of these package managers, I feel there's value (and no risk) in utilizing them to manage your Sigil installation/updates.
+The latest Sigil versions are also typically available via the [winget (Windows 10+)](https://winstall.app/apps/Sigil-Ebook.Sigil), [Chocolatey (Windows 10+)](https://community.chocolatey.org/packages/Sigil), and [Npackd](https://npackd.appspot.com/p?q=sigil) Windows package managers within a week of our releases (often sooner). There are no "scary" Microsoft warnings about unknown publishers if you install Sigil via one of these package managers. Those Windows package managers download their unpatched Sigil installers directly from our release posts. So while I'm not officially endorsing the use of these package managers, I feel there's value (and no risk) in utilizing them to manage your Sigil installation/updates.
 </div>
 {: .notice--info}
 
 ### Sigil on Mac
 <div markdown="1">
-Sigil currently runs on macOS 10.12 Sierra and newer. 
+Sigil currently runs on macOS 11 Big Sur and newer. 
 
-Whether a macOS version can run Sigil depends primarily on whether it is supported by the Qt libraries used to build Sigil. Currently, Sigil is built using Qt 5.12.x, which requires macOS 10.12 (no relation between the 12's!). Therefore Sigil requires macOS 10.12 or newer.
+Whether a macOS version can run Sigil depends primarily on whether it is supported by the Qt libraries used to build Sigil. Currently, Sigil is built using Qt6.5.x, which requires macOS 11. Therefore Sigil requires macOS 11 or newer.
 
 In addition, the macOS .app file (not the .txz) is signed before release. You can use the code sign command line tool to verify the application. Open a terminal and run:
 
