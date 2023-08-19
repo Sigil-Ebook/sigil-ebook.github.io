@@ -4,7 +4,7 @@ permalink: /sigil/download/
 ---
 
 {% include remote_versions.html %}
-[Latest Windows x64 download](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil-{{ sigil_ver }}-Windows-x64-Setup.exe){: .btn .btn--success}<br/>[Latest MacOS download](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil.app-{{ sigil_ver }}-Mac.txz){: .btn .btn--success}<br/>[Latest CHECKSUMS file](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil-{{ sigil_ver }}-CHECKSUMS.sha256.txt){: .btn .btn--success}
+[Latest Windows x64 download](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil-{{ sigil_ver }}-Windows-x64-Setup.exe){: .btn .btn--success}<br/>[Latest MacOS (Intel) download](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil.app-{{ sigil_ver }}-Mac-x86_64.txz){: .btn .btn--success}<br/>[Latest MacOS (Arm64) download](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil.app-{{ sigil_ver }}-Mac-arm64.txz){: .btn .btn--success}<br/>[Latest CHECKSUMS file](https://github.com/Sigil-Ebook/Sigil/releases/download/{{ sigil_ver }}/Sigil-{{ sigil_ver }}-CHECKSUMS.sha256.txt){: .btn .btn--success}
 
 Past and present installers are always available under [releases](https://github.com/Sigil-Ebook/Sigil/releases) at the main code hosting location. The latest release will be on top. You can see what's changed between releases by looking at the [ChangeLog](https://github.com/Sigil-Ebook/Sigil/blob/master/ChangeLog.txt).
 
