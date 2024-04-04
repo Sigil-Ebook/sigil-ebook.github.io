@@ -11,14 +11,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           ref: master
 
       - name: remote query
         run: python $GITHUB_WORKSPACE/.github/workflows/vers_update.py -p $GITHUB_WORKSPACE
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_user_name: My GitHub Actions Bot
           commit_user_email: my-github-actions-bot@example.org
