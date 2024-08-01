@@ -5,7 +5,7 @@ classes: wide
 ---
 
 {% include remote_versions.html %}
-[View PageEdit User Guide Online (Beta)](https://sigil-ebook.com/pageedit-user-guide){: .btn .btn--success}
+[View PageEdit User Guide Online (Beta)](https://sigil-ebook.com/pageedit-user-guide){:target="_blank" rel="noopener" .btn .btn--success}
 
 [Latest PageEdit User Guide](https://github.com/Sigil-Ebook/pageedit-user-guide/releases/download/{{ pageedit_guide_ver }}/PageEdit_User_Guide_{{ pageedit_guide_ver }}.epub){: .btn .btn--success}
 
