@@ -5,7 +5,7 @@ classes: wide
 ---
 
 {% include remote_versions.html %}
-[View Latest Sigil User Guide Online (Beta)](https://sigil-ebook.com/sigil-user-guide/?epub=epub_content/guide){: .btn .btn--success}
+[View Sigil User Guide Online (Beta)](https://sigil-ebook.com/sigil-user-guide){: .btn .btn--success}
 
 [Download Latest Sigil User Guide](https://github.com/Sigil-Ebook/sigil-user-guide/releases/download/{{ sigil_guide_ver }}/Sigil_User_Guide_{{ sigil_guide_ver }}.epub){: .btn .btn--success}
 
