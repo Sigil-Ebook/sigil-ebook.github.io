@@ -23,7 +23,7 @@ email:
 #  Sigil is a multi-platform EPUB ebook Editor
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "dark"
 search: true
 url: "https://sigil-ebook.com"
 #logo: "/assets/images/sigil_logo_blue.png"
