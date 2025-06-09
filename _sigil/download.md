@@ -10,7 +10,7 @@ Past and present installers are always available under [releases](https://github
 
 ### Checksum verification
 <div markdown="1">
-All releases also have a CHECKSUM.sha256.txt file which includes sha256 check sums of the file posted. This will let you know if you have a bad download or if a build has been tampered with. Going forward release announcements will include the sha256 checksum of the checksum file itself so you can verify that it hasn't been tampered with either.
+All files uploaded to our releases have a sha256 checksum automatically generated. This can be copied from our github releases page (link can be found above). This can be used to let you know if you have a bad download or if a file has been tampered with.
 </div>
 {: .notice--info}
 
@@ -43,6 +43,8 @@ There will be a lot of output. Look for the following, which tells you that Kevi
 Sigil **will** run on Linux. We try to maintain compatibility with Linux mainly because it's easy to with Sigil supporting both Mac and Windows and it uses a number of technologies that already support Linux. That said, there is currently no official Sigil binary package for Linux.
 
 If you're looking to use Sigil on Linux, you can always build it from source. The docs directory in  [Sigil's Github repository](https://github.com/Sigil-Ebook/Sigil/tree/master/docs) has instructions that can guide you in that endeavor. You can also look to see if Sigil is available in the official repositories for your flavor of Linux.
+
+We are now releasing AppImages of Sigil that should match our Windows and macOS bundled feature-for-feature.
 
 An up-to-date version of Sigil is available via flatpak on Flathub. So if your distro can use Flatpak, you can always use [Sigil that way](https://flathub.org/apps/details/com.sigil_ebook.Sigil) if your distro's Sigil package seems to be lagging too far behind.
 </div>
