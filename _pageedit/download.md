@@ -14,6 +14,6 @@ Note that PageEdit currently provides a Windows installer for x64 and will only 
 {: .notice--info}
 
 <div markdown="1">
-All files uploaded to our releases have a sha256 checksum automatically generated. This can be copied from our github releases page (link can be found above). This can be used to let you know if you have a bad download or if a file has been tampered with.
+All files uploaded to our releases have a sha256 checksum automatically generated. This can be copied from our [GitHub releases page](https://github.com/Sigil-Ebook/PageEdit/releases/latest). This can be used to let you know if you have a bad download or if a file has been tampered with.
 </div>
 {: .notice--info}
