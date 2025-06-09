@@ -11,6 +11,7 @@ Past and present installers are always available under [releases](https://github
 <div markdown="1">
 Note that PageEdit currently provides a Windows installer for x64 and will only work on Windows 10 (1809) or newer. Mac OS X binaries are typically one version behind the current release. This means that today 13 is the current release, so it should run on the 11 (with the latest updates installed). However, this is subject to change and this information is not always current. Especially for OS X. This is an at best support for older versions of Windows and OS X.
 
-All releases also have CHECKSUM.sha256 file which includes sha256 check sums of the file posted. This will let you know if you have a bad download or if a build has been tampered with.
+
+All files uploaded to our releases have a sha256 checksum automatically generated. This can be copied from our github releases page (link can be found above). This can be used to let you know if you have a bad download or if a file has been tampered with.
 </div>
 {: .notice--info}
