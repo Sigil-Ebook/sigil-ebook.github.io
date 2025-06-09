@@ -10,7 +10,7 @@ Past and present installers are always available under [releases](https://github
 
 ### Checksum verification
 <div markdown="1">
-All files uploaded to our releases have a sha256 checksum automatically generated. This can be copied from our github releases page (link can be found above). This can be used to let you know if you have a bad download or if a file has been tampered with.
+All files uploaded to our releases have a sha256 checksum automatically generated. This can be copied from our [GitHub releases page](https://github.com/Sigil-Ebook/Sigil/releases/latest). This can be used to let you know if you have a bad download or if a file has been tampered with.
 </div>
 {: .notice--info}
 
