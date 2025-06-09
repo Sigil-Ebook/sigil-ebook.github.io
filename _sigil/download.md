@@ -44,7 +44,7 @@ Sigil **will** run on Linux. We try to maintain compatibility with Linux mainly 
 
 If you're looking to use Sigil on Linux, you can always build it from source. The docs directory in  [Sigil's Github repository](https://github.com/Sigil-Ebook/Sigil/tree/master/docs) has instructions that can guide you in that endeavor. You can also look to see if Sigil is available in the official repositories for your flavor of Linux.
 
-We are now releasing AppImages of Sigil that should match our Windows and macOS bundled feature-for-feature.
+We are now releasing AppImages of Sigil that should match our Windows and macOS bundles feature-for-feature.
 
 An up-to-date version of Sigil is available via flatpak on Flathub. So if your distro can use Flatpak, you can always use [Sigil that way](https://flathub.org/apps/details/com.sigil_ebook.Sigil) if your distro's Sigil package seems to be lagging too far behind.
 </div>
