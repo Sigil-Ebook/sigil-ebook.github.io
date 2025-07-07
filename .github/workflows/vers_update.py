@@ -13,7 +13,8 @@ repos = {'sigil'                : 'sigil_ver',
          'sigil-user-guide'     : 'sigil_guide_ver', 
          'pageedit'             : 'pageedit_ver',
          'pageedit-user-guide'  : 'pageedit_guide_ver',
-         'iconthemes'           : 'iconthemes_ver'
+         'iconthemes'           : 'iconthemes_ver',
+         'plugin-api-guide'     : 'api_guide_ver'
 }
 
 line_data = '{{% assign {} = "{}" %}}'
