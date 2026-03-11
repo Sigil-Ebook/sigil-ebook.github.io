@@ -24,9 +24,9 @@ The latest Sigil versions are also typically available via the [winget (Windows 
 
 ### Sigil on Mac
 <div markdown="1">
-Sigil currently runs on macOS 11 Big Sur and newer. 
+Sigil currently runs on macOS 13 and newer. 
 
-Whether a macOS version can run Sigil depends primarily on whether it is supported by the Qt libraries used to build Sigil. Currently, Sigil is built using Qt6.5.x, which requires macOS 11. Therefore Sigil requires macOS 11 or newer.
+Whether a macOS version can run Sigil depends primarily on whether it is supported by the Qt libraries used to build Sigil. Currently, Sigil is built using Qt6.10.x, which requires macOS 13. Therefore Sigil requires macOS 13 or newer.
 
 In addition, the macOS .app file (not the .txz) is signed before release. You can use the code sign command line tool to verify the application. Open a terminal and run:
 
