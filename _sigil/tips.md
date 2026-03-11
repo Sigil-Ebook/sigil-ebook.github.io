@@ -61,7 +61,7 @@ for best performance with Sigil.
 
 ## Mac Tips and Troubleshooting
 
-The latest version of Sigil requires macOS 11 or higher. macOS upgrades are available for free directly from Apple.
+Starting with version 2.7.5, Sigil requires macOS 13 or higher. macOS upgrades are available for free directly from Apple.
 
 
 ### Need to Install Tcl 8.6.x
